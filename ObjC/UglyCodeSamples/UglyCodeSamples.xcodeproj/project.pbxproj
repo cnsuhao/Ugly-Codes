@@ -12,10 +12,10 @@
 		81DA8370178BDBFD00E80037 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DA836F178BDBFD00E80037 /* CoreGraphics.framework */; };
 		81DA8376178BDBFD00E80037 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81DA8374178BDBFD00E80037 /* InfoPlist.strings */; };
 		81DA8378178BDBFD00E80037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DA8377178BDBFD00E80037 /* main.m */; };
-		81DA837C178BDBFD00E80037 /* UCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DA837B178BDBFD00E80037 /* UCAppDelegate.m */; };
 		81DA837E178BDBFD00E80037 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DA837D178BDBFD00E80037 /* Default.png */; };
 		81DA8380178BDBFD00E80037 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DA837F178BDBFD00E80037 /* Default@2x.png */; };
 		81DA8382178BDBFD00E80037 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DA8381178BDBFD00E80037 /* Default-568h@2x.png */; };
+		81DA838A178BDC1800E80037 /* UCCodeSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DA8389178BDC1800E80037 /* UCCodeSample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		81DA8375178BDBFD00E80037 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81DA8377178BDBFD00E80037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81DA8379178BDBFD00E80037 /* UglyCodeSamples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UglyCodeSamples-Prefix.pch"; sourceTree = "<group>"; };
-		81DA837A178BDBFD00E80037 /* UCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCAppDelegate.h; sourceTree = "<group>"; };
-		81DA837B178BDBFD00E80037 /* UCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCAppDelegate.m; sourceTree = "<group>"; };
 		81DA837D178BDBFD00E80037 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		81DA837F178BDBFD00E80037 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		81DA8381178BDBFD00E80037 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		81DA8388178BDC1800E80037 /* UCCodeSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCCodeSample.h; sourceTree = "<group>"; };
+		81DA8389178BDC1800E80037 /* UCCodeSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCCodeSample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +78,9 @@
 		81DA8371178BDBFD00E80037 /* UglyCodeSamples */ = {
 			isa = PBXGroup;
 			children = (
-				81DA837A178BDBFD00E80037 /* UCAppDelegate.h */,
-				81DA837B178BDBFD00E80037 /* UCAppDelegate.m */,
 				81DA8372178BDBFD00E80037 /* Supporting Files */,
+				81DA8388178BDC1800E80037 /* UCCodeSample.h */,
+				81DA8389178BDC1800E80037 /* UCCodeSample.m */,
 			);
 			path = UglyCodeSamples;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81DA8378178BDBFD00E80037 /* main.m in Sources */,
-				81DA837C178BDBFD00E80037 /* UCAppDelegate.m in Sources */,
+				81DA838A178BDC1800E80037 /* UCCodeSample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

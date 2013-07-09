@@ -10,4 +10,6 @@
 
 @interface UCCodeSample : NSObject
 
+- (void)addReadyScreenMessage;
+
 @end
